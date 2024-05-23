@@ -3,6 +3,7 @@ Reverse Polish Notation - Spreadsheet Calculator
 
 https://johnsokol.blogspot.com/2014/06/reverse-polish-notation-spreadsheet.html
 
+<pre>
 Spreadsheet Calculator 
 A spreadsheet consists of a two-dimensional array of cells, labeled A1, A2, .... Each cell contains either an integer (its value) or an expression. 
 Expressions contain integers, cell references, and the operators '+', '-', '*', '/'. Expressions are given in Reverse Polish Notation (see http://en.wikipedia.org/wiki/Reverse_Polish_notation). Write a program (in Python/C++/Java/C) to read a spreadsheet specification and evaluate the values of all the cells. A spreadsheet is specified as a plain text file:
@@ -34,3 +35,5 @@ Test Cases
 Comments • All numbers in the input are positive integers, but internal calculations and output should be with floats. You can assume that there are no more than 26 rows (A-Z) in the spreadsheet. • Your program should detect cyclic dependencies in the input data and report these by throwing CircularReferenceException. 
 • You may assume that input file is formatted correctly, and all of the expressions are well-formed. 
 • Just passing the provided test cases does NOT mean you have a correct implementation.
+
+</pre>
